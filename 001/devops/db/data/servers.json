@@ -1,0 +1,398 @@
+{
+    "cluster-7d0ef71bb739": {
+        "id": "7d0ef71bb739",
+        "servers": [
+            {
+                "id": "a92b0b3ff89b",
+                "ip4": "172.16.108.206",
+                "password": "oxufnnhnwmmd2amn",
+                "admin_email": "root@srv-a92b0b3ff89b.srv-0.example.com",
+                "location": "eu-se",
+                "cpus": 9,
+                "memory": 4096,
+                "os": "alpine:latest",
+                "stats": {
+                    "load_avg": [
+                        0.2,
+                        3.45,
+                        0.59
+                    ],
+                    "uptime_seconds": 13152398,
+                    "processes": [
+                        "uwsgi",
+                        "openvpn",
+                        "vsftpd",
+                        "openvpn",
+                        "nginx",
+                        "uwsgi",
+                        "uwsgi",
+                        "vsftpd"
+                    ]
+                }
+            },
+            {
+                "id": "4ad01640d667",
+                "ip4": "172.16.242.32",
+                "password": "83iua25i2qd",
+                "admin_email": "root@srv-4ad01640d667.srv-1.example.com",
+                "location": "us-central",
+                "cpus": 16,
+                "memory": 2048,
+                "os": "alpine:latest",
+                "stats": {
+                    "load_avg": [
+                        1.91,
+                        1.09,
+                        0.22
+                    ],
+                    "uptime_seconds": 4156971,
+                    "processes": [
+                        "openvpn",
+                        "vsftpd",
+                        "vsftpd",
+                        "nginx",
+                        "vsftpd"
+                    ]
+                }
+            },
+            {
+                "id": "fe6b41310915",
+                "ip4": "172.16.117.66",
+                "password": "qreg8l8li",
+                "admin_email": "root@srv-fe6b41310915.srv-2.example.com",
+                "location": "us-central",
+                "cpus": 4,
+                "memory": 1024,
+                "os": "debian:latest",
+                "stats": {
+                    "load_avg": [
+                        1.33,
+                        0.79,
+                        0.16
+                    ],
+                    "uptime_seconds": 7519354,
+                    "processes": [
+                        "uwsgi",
+                        "vsftpd"
+                    ]
+                }
+            },
+            {
+                "id": "968b99521695",
+                "ip4": "172.16.113.201",
+                "password": "y2zo0e972o",
+                "admin_email": "root@srv-968b99521695.srv-3.example.com",
+                "location": "eu-nl",
+                "cpus": 8,
+                "memory": 1024,
+                "os": "ubuntu:18.04",
+                "stats": {
+                    "load_avg": [
+                        1.69,
+                        3.23,
+                        0.02
+                    ],
+                    "uptime_seconds": 9970442,
+                    "processes": [
+                        "uwsgi",
+                        "vsftpd",
+                        "openvpn",
+                        "uwsgi",
+                        "openvpn"
+                    ]
+                }
+            },
+            {
+                "id": "bc589d9c7479",
+                "ip4": "172.16.217.21",
+                "password": "4sjwlo65utkuin",
+                "admin_email": "root@srv-bc589d9c7479.srv-4.example.com",
+                "location": "eu-nl",
+                "cpus": 10,
+                "memory": 1024,
+                "os": "ubuntu:18.04",
+                "stats": {
+                    "load_avg": [
+                        1.83,
+                        1.29,
+                        0.44
+                    ],
+                    "uptime_seconds": 15464161,
+                    "processes": [
+                        "nginx",
+                        "vsftpd",
+                        "openvpn",
+                        "nginx",
+                        "nginx",
+                        "vsftpd",
+                        "nginx",
+                        "uwsgi"
+                    ]
+                }
+            },
+            {
+                "id": "886a2468c593",
+                "ip4": "172.16.53.178",
+                "password": "6qui06v76o",
+                "admin_email": "root@srv-886a2468c593.srv-5.example.com",
+                "location": "singapore",
+                "cpus": 6,
+                "memory": 8192,
+                "os": "alpine:latest",
+                "stats": {
+                    "load_avg": [
+                        0.28,
+                        1.88,
+                        0.29
+                    ],
+                    "uptime_seconds": 956294,
+                    "processes": [
+                        "nginx",
+                        "uwsgi",
+                        "openvpn",
+                        "vsftpd"
+                    ]
+                }
+            }
+        ],
+        "ctime": "2018-10-06T22:51:03.812886",
+        "admin_email": "cluster-admin@cluster-7d0ef71bb739.srv-0.example.com"
+    },
+    "cluster-a8b1638a519d": {
+        "id": "a8b1638a519d",
+        "servers": [
+            {
+                "id": "5d75d91d6c71",
+                "ip4": "172.16.160.249",
+                "password": "z63jh98pcoy",
+                "admin_email": "root@srv-5d75d91d6c71.srv-0.example.com",
+                "location": "us-west-2",
+                "cpus": 2,
+                "memory": 1024,
+                "os": "alpine:latest",
+                "stats": {
+                    "load_avg": [
+                        0.63,
+                        1.4,
+                        0.12
+                    ],
+                    "uptime_seconds": 1772450,
+                    "processes": [
+                        "uwsgi",
+                        "vsftpd",
+                        "nginx",
+                        "uwsgi"
+                    ]
+                }
+            },
+            {
+                "id": "3c51259125b4",
+                "ip4": "172.16.96.66",
+                "password": "9k04lx7226",
+                "admin_email": "root@srv-3c51259125b4.srv-1.example.com",
+                "location": "us-west-2",
+                "cpus": 8,
+                "memory": 512,
+                "os": "centos:7",
+                "stats": {
+                    "load_avg": [
+                        1.86,
+                        1.99,
+                        0.04
+                    ],
+                    "uptime_seconds": 12066120,
+                    "processes": [
+                        "openvpn",
+                        "uwsgi",
+                        "vsftpd",
+                        "openvpn",
+                        "nginx",
+                        "vsftpd",
+                        "uwsgi"
+                    ]
+                }
+            },
+            {
+                "id": "94bfeae948ee",
+                "ip4": "172.16.127.70",
+                "password": "8pd8m5j1uik6kv7f",
+                "admin_email": "root@srv-94bfeae948ee.srv-2.example.com",
+                "location": "us-west-1",
+                "cpus": 3,
+                "memory": 256,
+                "os": "debian:latest",
+                "stats": {
+                    "load_avg": [
+                        0.6,
+                        1.73,
+                        0.61
+                    ],
+                    "uptime_seconds": 14969609,
+                    "processes": [
+                        "openvpn",
+                        "nginx",
+                        "uwsgi"
+                    ]
+                }
+            },
+            {
+                "id": "f774f2ac67e7",
+                "ip4": "172.16.4.91",
+                "password": "pbdf7fiy2",
+                "admin_email": "root@srv-f774f2ac67e7.srv-3.example.com",
+                "location": "us-west-2",
+                "cpus": 11,
+                "memory": 4096,
+                "os": "debian:latest",
+                "stats": {
+                    "load_avg": [
+                        1.45,
+                        0.55,
+                        0.89
+                    ],
+                    "uptime_seconds": 2801491,
+                    "processes": [
+                        "nginx",
+                        "nginx",
+                        "uwsgi",
+                        "nginx",
+                        "openvpn",
+                        "nginx",
+                        "openvpn"
+                    ]
+                }
+            }
+        ],
+        "ctime": "2018-12-30T22:51:03.812999",
+        "admin_email": "cluster-admin@cluster-a8b1638a519d.srv-1.example.com"
+    },
+    "cluster-2dfe2c77e9c6": {
+        "id": "2dfe2c77e9c6",
+        "servers": [
+            {
+                "id": "6a850a2942af",
+                "ip4": "172.16.253.202",
+                "password": "d612nnd6m03",
+                "admin_email": "root@srv-6a850a2942af.srv-0.example.com",
+                "location": "us-west-1",
+                "cpus": 1,
+                "memory": 512,
+                "os": "debian:latest",
+                "stats": {
+                    "load_avg": [
+                        0.29,
+                        0.41,
+                        0.47
+                    ],
+                    "uptime_seconds": 3323928,
+                    "processes": [
+                        "nginx",
+                        "uwsgi",
+                        "openvpn",
+                        "vsftpd",
+                        "vsftpd",
+                        "openvpn",
+                        "vsftpd"
+                    ]
+                }
+            },
+            {
+                "id": "b00ba9e9359c",
+                "ip4": "172.16.150.25",
+                "password": "0vhyhpehdn",
+                "admin_email": "root@srv-b00ba9e9359c.srv-1.example.com",
+                "location": "eu-se",
+                "cpus": 16,
+                "memory": 512,
+                "os": "centos:7",
+                "stats": {
+                    "load_avg": [
+                        0.32,
+                        1.38,
+                        0.05
+                    ],
+                    "uptime_seconds": 10788402,
+                    "processes": [
+                        "vsftpd",
+                        "openvpn",
+                        "vsftpd"
+                    ]
+                }
+            },
+            {
+                "id": "798048331494",
+                "ip4": "172.16.59.118",
+                "password": "0eh8ma1g1a",
+                "admin_email": "root@srv-798048331494.srv-2.example.com",
+                "location": "us-east",
+                "cpus": 15,
+                "memory": 512,
+                "os": "debian:latest",
+                "stats": {
+                    "load_avg": [
+                        0.15,
+                        1.65,
+                        0.75
+                    ],
+                    "uptime_seconds": 9435623,
+                    "processes": [
+                        "nginx",
+                        "nginx",
+                        "uwsgi"
+                    ]
+                }
+            },
+            {
+                "id": "4a415bbb5f38",
+                "ip4": "172.16.107.55",
+                "password": "s799a1h7lbywwgh",
+                "admin_email": "root@srv-4a415bbb5f38.srv-3.example.com",
+                "location": "jp-tokyo",
+                "cpus": 15,
+                "memory": 4096,
+                "os": "alpine:latest",
+                "stats": {
+                    "load_avg": [
+                        1.55,
+                        3.91,
+                        0.23
+                    ],
+                    "uptime_seconds": 2418116,
+                    "processes": [
+                        "vsftpd",
+                        "vsftpd",
+                        "openvpn",
+                        "nginx",
+                        "uwsgi",
+                        "nginx",
+                        "nginx"
+                    ]
+                }
+            },
+            {
+                "id": "000f0bd81683",
+                "ip4": "172.16.144.19",
+                "password": "wpgghq1j4o97yx6",
+                "admin_email": "root@srv-000f0bd81683.srv-4.example.com",
+                "location": "us-west-1",
+                "cpus": 8,
+                "memory": 256,
+                "os": "ubuntu:18.04",
+                "stats": {
+                    "load_avg": [
+                        1.58,
+                        0.93,
+                        0.97
+                    ],
+                    "uptime_seconds": 13304213,
+                    "processes": [
+                        "nginx",
+                        "uwsgi"
+                    ]
+                }
+            }
+        ],
+        "ctime": "2019-02-09T22:51:03.813084",
+        "admin_email": "cluster-admin@cluster-2dfe2c77e9c6.srv-2.example.com"
+    }
+}
