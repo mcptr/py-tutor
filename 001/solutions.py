@@ -1,4 +1,6 @@
-# This is the file with empty functions which you needs update to
+#!/usr/bin/env python3
+
+# This is the file with empty functions which you need to
 # implement yourself.
 #
 # Note:
@@ -22,10 +24,9 @@
 #      ...
 #   }
 # - write a function that format each server prints its processes sorted
-# - write a function that changes "example.com" to "example.net" in all admin_emails
-#   (in clusters and servers)
+# - write a function that changes "example.com" to "example.net"
+#   in all admin_emails (all clusters and servers)
 # - write a function which validates that all admin_emails are valid emails
-
 
 
 def count_clusters(clusters):
@@ -61,7 +62,8 @@ def get_server_names_by_total_cpus(clusters):
 
 
 def filter_at_least_4gb_mem(clusters):
-    """Returns a list of server ids of servers having at least 4096 gb memory"""
+    """Returns a list of server ids of servers having
+    at least 4096 gb memory"""
     pass
 
 
@@ -71,7 +73,7 @@ def filter_uptime_gt_30days(clusters):
     # "a92b0b3ff89b:172.16.108.206",
     # "4ad01640d667:172.16.242.32",
     # ...
-    #"798048331494:172.16.59.118",
+    # "798048331494:172.16.59.118",
     # "000f0bd81683:172.16.144.19",
     pass
 

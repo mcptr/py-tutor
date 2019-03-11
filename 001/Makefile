@@ -1,5 +1,6 @@
 test:
-	python3 test.py
+	@which pycodestyle && pycodestyle solutions.py || true
+	python3 -tt test.py
 
 
 clean:
