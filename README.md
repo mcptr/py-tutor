@@ -1,2 +1,3 @@
-# py-tutor
-Collection of test assignments and other materials
+# Tutorials
+
+Collection of examples and test assignments.
